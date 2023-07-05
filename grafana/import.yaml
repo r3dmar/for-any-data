@@ -2,7 +2,7 @@ apiVersion: v1
 items:
 - apiVersion: v1
   data:
-    istio-control-plane-dashboard.json: |
+    istio-control-plane-dashboard.json: |-
       {
         "__inputs": [
           {
@@ -1784,7 +1784,7 @@ items:
             "30d"
           ]
         },
-        "timezone": "browser",
+        "timezone": "utc",
         "title": "Istio Control Plane Dashboard",
         "uid": "3--MLVZZk",
         "version": 11
@@ -1799,7 +1799,7 @@ items:
     name: istio-control-plane-dashboard
 - apiVersion: v1
   data:
-    istio-mesh-dashboard.json: |
+    istio-mesh-dashboard.json: |-
       {
         "__inputs": [
           {
@@ -3576,7 +3576,7 @@ items:
             "30d"
           ]
         },
-        "timezone": "browser",
+        "timezone": "utc",
         "title": "Istio Mesh Dashboard",
         "uid": "G8wLrJIZk",
         "version": 5
@@ -3591,7 +3591,7 @@ items:
     name: istio-mesh-dashboard
 - apiVersion: v1
   data:
-    istio-performance-dashboard.json: |
+    istio-performance-dashboard.json: |-
       {
         "__inputs": [
           {
@@ -4958,7 +4958,7 @@ items:
             "30d"
           ]
         },
-        "timezone": "",
+        "timezone": "utc",,
         "title": "Istio Performance Dashboard",
         "uid": "vu8e0VWZk",
         "version": 22
@@ -4973,7 +4973,7 @@ items:
     name: istio-performance-dashboard
 - apiVersion: v1
   data:
-    istio-service-dashboard.json: |
+    istio-service-dashboard.json: |-
       {
         "__inputs": [
           {
@@ -8039,7 +8039,7 @@ items:
             "30d"
           ]
         },
-        "timezone": "",
+        "timezone": "utc",
         "title": "Istio Service Dashboard",
         "uid": "LJ_uJAvmk",
         "version": 1
@@ -8054,7 +8054,7 @@ items:
     name: istio-service-dashboard
 - apiVersion: v1
   data:
-    istio-workload-dashboard.json: |
+    istio-workload-dashboard.json: |-
       {
         "__inputs": [
           {
@@ -10758,7 +10758,7 @@ items:
             "30d"
           ]
         },
-        "timezone": "",
+        "timezone": "utc",
         "title": "Istio Workload Dashboard",
         "uid": "UbsSZTDik",
         "version": 1
